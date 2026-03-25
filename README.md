@@ -10,13 +10,13 @@ Key features of this package include:
 - **Python programming interface**: Prompts are represented with Python code, providing a more structured and maintainable format than raw text.
 - **Cross-referencing**: Define elements in your prompt as variables and refer to them thereafter, enabling easy cross-referencing of different parts of the prompt. The structure of forward referencing could potentially be more compatible with the auto-regressive nature of current LMs.
 
-By using the `procoder` package, we developed and maintained a system of prompts that has **in total more than 20k tokens** in the [ToolEmu](https://github.com/tzsahil-prog/ToolEmu) project, which is an LM-based tool emulation framework for assessing the risks of LM agents.
+By using the `procoder` package, we developed and maintained a system of prompts that has **in total more than 20k tokens** in the [ToolEmu](https://github.com/itzsahil-prog/ToolEmu.git) project, which is an LM-based tool emulation framework for assessing the risks of LM agents.
 
 **Note that the package is still in its early stages and under active development.**
 
 ## Installation
 ```bash
-git clone https://github.com/itzsahil-prog/PromptCoder
+git clone https://github.com/itzsahil-prog/PromptCoder.git
 cd PromptCoder
 pip install -e .
 ```
@@ -91,5 +91,4 @@ For more examples, please refer to the [ToolEmu prompts](https://github.com/itzs
 
 
 ## Contributors
-- Honghua Dong [@dhh1995](https://github.com/dhh1995)
-- Yangjun Ruan [@ryoungj](https://github.com/ryoungj)
+- Sahil Goyal [@itzsahil-prog](https://github.com/itzsahil-prog)
